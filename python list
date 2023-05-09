@@ -1,0 +1,49 @@
+#asking list to user:
+l=list(map(int,input().split()))
+#print last element
+last_element=l[-1]
+print("lastelement",last_element)
+#print first element
+first_element=l[0]
+print("first_element",first_element)
+#using slicing
+start=l[2:]
+print("starting",start)
+line=l[1:4]
+print("line",line)
+skip=l[1:5:2]
+print("skip",skip)
+
+#METHODS:
+#append
+l.append(60)
+print("append=",l)
+#clear
+
+#copy
+new_list=l.copy()
+print("copy=",new_list)
+#clear
+new_list.clear()
+print("clear=",new_list)
+#count
+a1=len(new_list)
+print(a1)
+#inserting
+l.insert(2,80)
+print("insert=",l)
+#pop
+t=l.pop()
+print("pop=",t)
+#remove
+l.remove(20)
+print("remove=",l)
+#reverse
+l.reverse()
+print("reverse=",l)
+#sort
+l.sort()
+print("sort=",l)
+#index
+a=l.index(80)
+print("index=",a)
