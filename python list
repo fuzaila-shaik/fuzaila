@@ -35,6 +35,8 @@ print("insert=",l)
 #pop
 t=l.pop()
 print("pop=",t)
+f=l.pop(3)
+print(f)
 #remove
 l.remove(20)
 print("remove=",l)
